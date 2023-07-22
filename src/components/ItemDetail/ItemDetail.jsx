@@ -19,7 +19,7 @@ const ItemDetail = ({ id, nombre, precio, img, stock }) => {
       <h2>Nombre: {nombre} </h2>
       <h3>Precio: {precio} </h3>
       <h3>ID: {id} </h3>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odio eveniet facere maiores quo tempore quisquam! Consectetur dolores quos ducimus maiores quam quae, eveniet voluptatibus beatae, nemo cumque tempore modi?</p>
+      <p> Remera Bufalo confencionada 100% en algodón, de alta calidad y con óptima resistencia para tus entrenamientos.</p>
       <img src={img} alt={nombre} />
       
       {
