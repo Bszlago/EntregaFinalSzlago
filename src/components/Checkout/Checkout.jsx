@@ -24,7 +24,7 @@ const Checkout = () => {
          }
          
          if(email !== emailConfirmacion) {
-             setError("Los campos del email no coinciden, maldito seas!!");
+             setError("Los campos del email no coinciden");
              return;
          }
           
