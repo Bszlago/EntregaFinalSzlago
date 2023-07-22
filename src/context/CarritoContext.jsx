@@ -1,4 +1,5 @@
 import { useState, createContext } from "react";
+import React from 'react';
 
 export const CarritoContext = createContext({
     carrito: [],
