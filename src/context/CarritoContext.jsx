@@ -55,3 +55,5 @@ export const CarritoProvider = ({children}) => {
         </CarritoContext.Provider>
     )
 }
+
+export default CarritoContext
