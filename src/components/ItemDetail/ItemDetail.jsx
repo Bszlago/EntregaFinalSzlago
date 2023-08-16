@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import ItemCount from '../ItemCount/ItemCount'
 import { useContext } from 'react'
-import { CarritoContext } from '../../Context/CarritoContext'
+import { CarritoContext } from '../../context/CarritoContext'
 import React from 'react';
 
 const ItemDetail = ({ id, nombre, precio, img, stock }) => {
